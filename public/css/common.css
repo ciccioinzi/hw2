@@ -1,0 +1,60 @@
+body {
+    /* background-image: url(https://storage.googleapis.com/pr-newsroom-wp/1/2022/03/Pink_Yellow-Generic-Header-1440x820-1-1440x733.png);  */
+    background-image: url(https://xboxplay.games/uploadStream/23796.jpg);
+    display: flex;
+    height: 100%;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+  
+form {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    margin-left: 43em;
+    margin-top: 21em;
+}  
+
+form label {
+    margin: 5px 10px;
+}
+  
+.error {
+    font-weight: bold;
+    color: red;
+    font-size: 1.2em;
+    text-align: right;
+    align-items: center;
+}   
+
+#submit {
+    border: 0;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: darkgray;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+}
+
+#submit:hover {
+    background-color: rgb(30, 215, 96);
+    color: white;
+}
+
+nav a {
+    margin: 0 10px;
+}
+
+.separated {
+    border-top: 1px solid black;
+}
+
+.colore {
+    color: white;
+}

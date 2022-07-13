@@ -1,0 +1,86 @@
+body {
+  background-color: black;
+  font-size: 16px;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: black;
+  z-index: 2;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nome {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+  color: #1DB954;
+  margin: 15px;
+}
+
+#links {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 10px;
+}
+
+#links a {
+  margin: 10px;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #1DB954;
+} 
+
+#add-collection-div {
+  margin-top: 20px;
+}
+
+#collections {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.collection-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.collection-item img {
+  height: 60px;
+}
+
+#colore {
+  color: #1DB954;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 7em;
+}
+
+section div {
+  justify-content: center;
+  text-align: center;
+}
+
+#testo {
+  color: #1DB954;
+  text-align: center;
+  margin-top: 7em;
+  font-size: 2em;
+}

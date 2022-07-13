@@ -1,0 +1,111 @@
+#search_result {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #1DB954;
+}
+
+#songs {
+    display: flex;
+    flex-wrap: wrap;
+    color: #1DB954;
+    margin-top: 5em;
+    font-size: 2em;
+}
+
+#search {
+    color: #1DB954;
+    align-items: center;
+    text-align: center;
+}
+
+.song-item {
+    margin: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.song-item img {
+    height: 60px;
+}
+
+.artist {
+    font-style: italic;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.song-item .remove-btn {
+    height: 20px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+  body {
+    background-color: black;
+    font-size: 16px;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  nav {
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: black;
+    z-index: 2;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #nome {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    color: #1DB954;
+    margin: 15px;
+    align-items: center;
+    text-align: center;
+    margin-top: 6em;
+  }
+  
+   #links { 
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 10px;
+  }
+    
+   #links a {
+    margin: 10px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #1DB954;
+  }
+
+  nav a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    color: #1DB954;
+    margin: 15px;
+    align-items: center;
+    text-align: center;
+  }
+
